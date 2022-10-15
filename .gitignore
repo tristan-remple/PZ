@@ -1,0 +1,5 @@
+# folders and pages containing the actual content
+/img
+
+# establishes database connection
+db.php

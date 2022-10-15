@@ -1,0 +1,96 @@
+body {
+    margin: 0px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16px;
+}
+
+  ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  }
+
+a {
+    text-decoration: none;
+}
+
+img.emoji {
+   height: 1em;
+   width: 1em;
+   margin: 0 .05em 0 .1em;
+   vertical-align: -0.1em;
+}
+
+:focus {
+  outline: none;
+}
+
+.verti {
+  width: 80%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: auto;
+}
+
+.title {
+  font-size: 72px;
+  font-family: 'Qwitcher Grypen', cursive;
+}
+
+.textbox {
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 2px;
+  margin: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+.padded {
+  padding: 12px;
+}
+
+.rowbox {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.column {
+  width: 40%;
+  flex-grow: 1;
+  display: flex;
+}
+
+.subtitle {
+  font-size: 54px;
+  font-family: 'Qwitcher Grypen', cursive;
+}
+
+.wide-ad1 {
+  border-radius: 12px;
+  margin: 12px;
+  width: 45%;
+  height: 130px;
+  flex-grow: 1;
+}
+
+.small-tile {
+  width: 25%;
+  display: flex;
+  flex-grow: 1;
+}
+
+.solobox {
+  width: 85%;
+  flex-grow: 1;
+  display: flex;
+}

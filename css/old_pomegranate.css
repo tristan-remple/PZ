@@ -1,0 +1,26 @@
+body {
+    background-image: url('../images/brunch-slices.png');
+    background-repeat: repeat;
+    background-color: #4D0E2B;
+    color: #FFEFD6;
+}
+
+  ::-webkit-scrollbar-track {
+  background: #F9BF80;
+  }
+
+  ::-webkit-scrollbar-thumb {
+  background: #ED577E;
+  }
+  
+  .accent-text {
+    color: #FFB47D;
+  }
+  
+  .boxcolor {
+    border-color: #BF2C58;
+  }
+  
+  .ad1 {
+    background-color: #BF2C58;
+  }

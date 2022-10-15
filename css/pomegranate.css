@@ -1,0 +1,160 @@
+body {
+    background-color: #4D0E2B;
+    color: #FFEFD6;
+}
+
+.title {
+    color: #FFB57E;
+}
+
+.subtitle {
+    color: #FFB57E;
+    background-color: #5F1839;
+}
+
+a {
+    color: #FFB57E;
+}
+
+.infobox {
+    background-color: #2C0822;
+    border-color: #BF2C58;
+}
+
+.sidebtncolor {
+    background-color: #2C0822;
+}
+
+.sidebtncolor:hover {
+    background-color: #BF2C58;
+}
+
+.guessbox {
+    background-color: #BF2C58;
+}
+
+.btncolor {
+    background-color: #5F1839;
+    color: #FFB57E;
+}
+
+.btncolor:hover {
+    background-color: #BF2C58;
+    color: #FFEFD6;
+}
+
+hr {
+    border-color: #FFB57E;
+}
+
+.blogpre {
+    background-color: #5F1839;
+}
+
+.previewtitle {
+    color: #FFB57E;
+}
+
+.readmore {
+    color: #FFB57E;
+}
+
+.predate {
+    color: #BF2C58;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #5F1839;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2C0822;
+}
+
+a:hover {
+    color: #FFEFD6;
+}
+
+.readmore:hover {
+    color: #FFEFD6;
+}
+
+.select-selected {
+  background-color: #5F1839;
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  border-color: #FFB57E transparent transparent transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  border-color: transparent transparent #FFB57E transparent;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  color: #FFB57E;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+}
+
+/* Style items (options): */
+.select-items {
+  background-color: #5F1839;
+  border-color: #FFB57E;
+}
+
+.select-items div:hover, .same-as-selected {
+  background-color: #BF2C58;
+  color: #FFEFD6;
+}
+
+.fieldcolor {
+  background-color: #5F1839;
+  color: #FFB57E;
+}
+
+label {
+  color: #FFB57E;
+}
+
+.impcol {
+  background-color: #5F1839;
+}
+
+.radiocon:hover input ~ .impcol {
+  background-color: #BF2C58;
+}
+
+.impcol:focus {
+  background-color: #BF2C58;
+  outline: none;
+}
+
+.radiocon input:checked ~ .checkdot {
+  background-color: #FFB57E;
+}
+
+.checkcolor {
+    background-color: #5F1839;
+}
+
+.checkcolor:checked {
+    color: #FFB57E;
+    background-color: #BF2C58;
+}
+
+.radiolabel {
+  color: #FFB57E;
+}
+
+.dragzone {
+  color: #FFB57E;
+  background-color: #5F1839;
+}
+
+.active {
+    background-color: #BF2C58;
+    color: #FFEFD6;
+}

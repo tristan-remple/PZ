@@ -1,0 +1,399 @@
+body {
+    margin: 0px;
+    font-family: 'Philosopher', sans-serif;
+    font-size: 16px;
+}
+
+  ::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+  border-radius: 5px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  }
+
+a {
+    text-decoration: none;
+}
+
+input {
+  font-family: 'Philosopher', sans-serif;
+  font-size: 16px;
+}
+
+img.emoji {
+   height: 1em;
+   width: 1em;
+   margin: 0 .05em 0 .1em;
+   vertical-align: -0.1em;
+}
+
+:focus {
+  outline: none;
+}
+
+.verti {
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  margin: auto;
+}
+
+.enabler {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.sidebar {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 72px;
+  font-family: 'Qwitcher Grypen', cursive;
+}
+
+.buttonbox {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sidebtn {
+  display: flex;
+  flex-grow: 1;
+  padding: 10px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+  justify-content: center;
+  margin: 10px;
+  max-height: 40px;
+  border: none;
+}
+
+.guessbox {
+  border-radius: 15px;
+  height: 300px;
+  flex-grow: 1;
+  margin: 10px;
+}
+
+.mainbox {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.userlinks {
+  align-self: flex-end;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  margin-right: 15px;
+}
+
+.rowbox {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.infobox {
+  width: 45%;
+  display: flex;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  padding: 10px;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.subtitle {
+  width: 85%;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 15px;
+  padding: 10px;
+  font-size: 48px;
+  font-family: 'Qwitcher Grypen', cursive;
+}
+
+.zestrow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 10px;
+  align-items: center;
+}
+
+.blogprebox {
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.blogpre {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  flex-grow: 1;
+  width: 100%;
+}
+
+.previewtitle {
+  font-size: 24px;
+}
+
+.predate {
+  font-weight: bold;
+}
+
+.btncase {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+hr {
+  border-width: 1px;
+  width: 95%;
+}
+
+.itext {
+  margin-left: 15px;
+}
+
+.readmore {
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+.readmore:hover {
+  font-style: italic;
+}
+
+a:hover {
+  font-style: italic;
+}
+
+.userlinks a {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.icon {
+  height: 100px;
+  width: 100px;
+}
+
+.biginfo {
+  width: 95%;
+  align-self: flex-end;
+}
+
+.bigimg {
+  width: 45%;
+  margin: 10px;
+  border-radius: 15px;
+}
+
+.active {
+  font-style: italic;
+}
+
+.answer {
+  padding: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+.min {
+  min-width: 30%;
+}
+
+/* The container must be positioned relative: */
+.custom-select {
+  position: relative;
+}
+
+.custom-select select {
+  display: none; /*hide original SELECT element: */
+}
+
+/* Style the arrow inside the select element: */
+.select-selected:after {
+  position: absolute;
+  content: "";
+  top: 14px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+}
+
+/* Point the arrow upwards when the select box is open (active): */
+.select-selected.select-arrow-active:after {
+  top: 7px;
+}
+
+/* style the items (options), including the selected item: */
+.select-items div,.select-selected {
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+/* Style items (options): */
+.select-items {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  border-radius: 6px;
+  border-style: solid;
+  border-width: 3px;
+}
+
+/* Hide the items when the select box is closed: */
+.select-hide {
+  display: none;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.small-field {
+  padding: 8px 16px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+  margin-right: 0px;
+  flex-grow: 1;
+}
+
+.large-field {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 6px;
+  height: 150px;
+}
+
+.hidden {
+  display: none;
+}
+
+label {
+  font-size: 18px;
+}
+
+.radiobox {
+  display: flex;
+  max-width: 100%;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.radiocon {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  min-height: 30px;
+  margin-right: 25px;
+  padding-top: 5px;
+}
+
+.checkdot {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+
+.radiocon input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.radiolabel {
+  font-size: 18px;
+}
+
+.radiolabel:focus {
+  outline: none;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.checkbox {
+    -webkit-appearance: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.checkbox:checked:after {
+  content: '\2714';
+	font-size: 14px;
+}
+
+.tinyrow {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.dragzone {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  border-radius: 15px;
+  text-align: center;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+}
+
+.submit {
+  font-size: 24px;
+  max-height: 60px;
+}
